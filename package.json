@@ -1,0 +1,19 @@
+{
+  "name": "parcel-vanilla-starter",
+  "private": true,
+  "version": "0.0.0",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "overrides": {
+    "@swc/core": "1.11.24"
+  },
+  "allowScripts": {
+    "@swc/core@1.11.24": true
+  }
+}
